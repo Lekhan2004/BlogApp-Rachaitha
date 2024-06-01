@@ -1,0 +1,8 @@
+POST http://localhost:5000/users/createblog
+Content-Type: application/json
+
+{
+  "title": "Example Blog Title 2",
+  "description": "This is the content of the example blog post.",
+  "user": "John Doe2"
+}
